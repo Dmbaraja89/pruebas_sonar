@@ -20,7 +20,7 @@ public class App2 {
 		 
 
 		  String filter = "(&(uid=" + user + ")(userPassword=" + pass + "))"; // Unsafe
-		  
+		  //
 		  // If the special value "*)(uid=*))(|(uid=*" is passed as user, authentication is bypassed
 		  // Indeed, if it is passed as a user, the filter becomes:
 		  // (&(uid=*)(uid=*))(|(uid=*)(userPassword=...))
